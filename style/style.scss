@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;400;600;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$bg: #15bf81;
+$text: #f2295f;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat Alternates', 'Poppins', sans-serif;
+}
+
+// Настройка ↑↑↑
+.main {
+	width: 100vw;
+	height: 100vh;
+	background: $bg;
+	display: grid;
+	align-items: center;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 270px);
+	grid-gap: 40px;
+	height: 500px;
+	justify-content: center;
+}
+.cards {
+	background: #131426;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1;
+	grid-template-rows: repeat(7, auto);
+	color: #fff;
+	box-shadow: 5px 5px 30px #131426;
+}
+.cards-1 {
+	.title {
+		justify-self: center;
+		align-self: center;
+		font-size: 22px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: -20px;
+	}
+
+	.text__title {
+		font-size: 12px;
+		justify-self: center;
+		align-self: center;
+	}
+	.price {
+		font-size: 28px;
+		font-weight: 700;
+		margin-top: 10px;
+		margin-bottom: -20px;
+		span {
+			font-size: 12px;
+			font-weight: 400;
+		}
+	}
+	.price__value {
+		font-size: 14px;
+	}
+	.value__title {
+		font-size: 12px;
+		ul {
+			margin-left: 10px;
+			padding: 0;
+		}
+		li {
+			list-style: circle;
+			padding-bottom: 5px;
+		}
+	}
+
+	.br {
+		border-top: 1px solid #242648;
+	}
+	.gift {
+		font-size: 12px;
+		ul {
+			margin-left: 10px;
+			padding: 0;
+		}
+		li {
+			list-style: circle;
+			padding-bottom: 5px;
+		}
+	}
+	.btn {
+		width: 80%;
+		height: 40px;
+		justify-self: center;
+		align-self: center;
+		background: #f2295f;
+		border-radius: 5px;
+		display: grid;
+		a {
+			width: 100%;
+			height: 100%;
+			display: grid;
+			justify-content: center;
+			align-items: center;
+			// justify-self: center;
+			// align-self: center;
+			text-decoration: none;
+			color: #fff;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+	}
+	.btn:hover {
+		transform: scale(1.1);
+		transition: all 0.5s;
+	}
+}
+.cards-2 {
+	.title {
+		justify-self: center;
+		align-self: center;
+		font-size: 22px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: -20px;
+	}
+
+	.text__title {
+		font-size: 12px;
+		justify-self: center;
+		align-self: center;
+		text-align: center;
+	}
+	.price {
+		font-size: 28px;
+		font-weight: 700;
+		margin-top: 10px;
+		margin-bottom: -20px;
+		span {
+			font-size: 12px;
+			font-weight: 400;
+		}
+	}
+	.price__value {
+		font-size: 14px;
+	}
+	.value__title {
+		font-size: 12px;
+		ul {
+			margin-left: 10px;
+			padding: 0;
+		}
+		li {
+			list-style: circle;
+			padding-bottom: 5px;
+		}
+	}
+
+	.br {
+		border-top: 1px solid #242648;
+	}
+	.gift {
+		font-size: 12px;
+		ul {
+			margin-left: 10px;
+			padding: 0;
+		}
+		li {
+			list-style: circle;
+			padding-bottom: 5px;
+		}
+	}
+	.btn {
+		width: 80%;
+		height: 40px;
+		justify-self: center;
+		align-self: center;
+		background: #f2295f;
+		border-radius: 5px;
+		display: grid;
+		a {
+			width: 100%;
+			height: 100%;
+			display: grid;
+			justify-content: center;
+			align-items: center;
+			// justify-self: center;
+			// align-self: center;
+			text-decoration: none;
+			color: #fff;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+	}
+	.btn:hover {
+		transform: scale(1.1);
+		transition: all 0.5s;
+	}
+}
+.cards-3 {
+	.title {
+		justify-self: center;
+		align-self: center;
+		font-size: 22px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: -20px;
+	}
+
+	.text__title {
+		font-size: 12px;
+		justify-self: center;
+		align-self: center;
+		text-align: center;
+	}
+	.price {
+		font-size: 28px;
+		font-weight: 700;
+		margin-top: 10px;
+		margin-bottom: -20px;
+		span {
+			font-size: 12px;
+			font-weight: 400;
+		}
+	}
+	.price__value {
+		font-size: 14px;
+	}
+	.value__title {
+		font-size: 12px;
+		ul {
+			margin-left: 10px;
+			padding: 0;
+		}
+		li {
+			list-style: circle;
+			padding-bottom: 5px;
+		}
+	}
+
+	.br {
+		border-top: 1px solid #242648;
+	}
+	.gift {
+		font-size: 12px;
+		ul {
+			margin-left: 10px;
+			padding: 0;
+		}
+		li {
+			list-style: circle;
+			padding-bottom: 5px;
+		}
+	}
+	.btn {
+		width: 80%;
+		height: 40px;
+		justify-self: center;
+		align-self: center;
+		background: #f2295f;
+		border-radius: 5px;
+		display: grid;
+		a {
+			width: 100%;
+			height: 100%;
+			display: grid;
+			justify-content: center;
+			align-items: center;
+			// justify-self: center;
+			// align-self: center;
+			text-decoration: none;
+			color: #fff;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+	}
+	.btn:hover {
+		transform: scale(1.1);
+		transition: all 0.5s;
+	}
+}
